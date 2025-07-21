@@ -19,6 +19,9 @@ Zero-Shot learning enables models to classify data into categories they’ve nev
 
 ⚙️ How It Works 
 
+Note: How to Use Your Own PDFs
+1. Upload your PDFs to the notebook (in Colab, use the upload button or `files.upload()`).
+
 Setup & Dependencies 
  Libraries: transformers, nltk, PyPDF2, sumy 
 
@@ -57,7 +60,6 @@ Few-Shot: Better for context-specific insights but requires curated examples and
  
 
 📊 Evaluation & Limitations 
-
 Performs well for Customer Segments and Key Partners. 
 
 Some ambiguity in Value Proposition and Key Activities due to the generalization limits of the Zero-Shot model. 
